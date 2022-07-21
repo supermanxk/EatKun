@@ -343,10 +343,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '科你太美';
-    if (score <= 60) return '科你太太美';
-    if (score <= 100) return 'ike真爱粉';
-    if (score <= 150) return '山穷水复疑无路，我是ike你记住';
+    if (score <= 30) return '你个小黑子';
+    if (score <= 40) return '科你太太美';
+    if (score <= 60) return 'ike真爱粉';
+    if (score <= 80) return '山穷水复疑无路，我是ike你记住';
     return '你就是蔡徐科本人？';
 }
 
